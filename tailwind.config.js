@@ -3,6 +3,10 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {},
+    fontFamily: {
+      reem: ["Reem Kufi Fun", "sans-serif"],
+      IBM: ["IBM Plex Sans", "sans-serif"],
+    },
   },
   plugins: [],
 };

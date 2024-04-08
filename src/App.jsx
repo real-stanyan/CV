@@ -156,7 +156,7 @@ function App() {
       {/* slide */}
       <div
         id="intro_slide"
-        className="w-full h-full flex flex-col items-center lg:flex-row absolute top-[100vh] left-0 p-4 pt-8 pb-12 lg:p-8"
+        className="w-full h-full flex flex-col items-center lg:flex-row absolute top-[100vh] left-0 pb-12 lg:p-8"
       >
         <div className="w-full lg:w-[20%] h-[20vh] lg:h-[30vh] flex flex-col justify-center items-center lg:items-start text-[6vw] lg:text-[2vw] text-[#f5f5f5] whitespace-nowrap font-IBM font-[400]">
           <h1>I'm Stan Yan.</h1>
@@ -166,7 +166,7 @@ function App() {
           id="model"
           className="w-[100vw] h-[60vh] lg:w-[60%] lg:h-[100vh]"
         />
-        <div className="w-full flex-1 lg:w-[20%] grid grid-cols-2 gap-1 lg:gap-4 lg:flex lg:flex-col font-IBM">
+        <div className="w-full flex-1 lg:w-[20%] grid grid-cols-2 gap-1 lg:gap-4 lg:flex lg:flex-col font-IBM pb-10">
           {/* My Github */}
           <div
             onClick={() =>

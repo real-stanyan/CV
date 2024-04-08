@@ -83,6 +83,8 @@ function Intro() {
 
     const scene = new THREE.Scene();
     const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true; // 启用阻尼（惯性）
+    controls.dampingFactor = 0.05; // 阻尼系数
     controls.enableZoom = false; // 禁用缩放
     const axesHelper = new THREE.AxesHelper(1);
     scene.add(axesHelper);
@@ -139,10 +141,7 @@ function Intro() {
   }, []);
 
   return (
-    <div
-      id="intro"
-      className="relative w-[100vw] min-h-[100vh] bg-[#696762] innerShadow"
-    >
+    <div id="intro" className="relative max-w-[100vw] min-h-[100vh]">
       {/* say hi */}
       <div
         id="say_hi"
@@ -156,7 +155,7 @@ function Intro() {
       {/* slide */}
       <div
         id="intro_slide"
-        className="w-full h-full flex flex-col items-center lg:flex-row absolute top-[100vh] left-0 pb-12 lg:p-8"
+        className="w-full h-full flex flex-col items-center lg:flex-row absolute top-[100vh] left-0 pb-12 lg:p-8 z-10"
       >
         <div className="w-full lg:w-[20%] h-[20vh] lg:h-[30vh] flex flex-col justify-center items-center lg:items-start text-[6vw] lg:text-[2vw] text-[#f5f5f5] whitespace-nowrap font-IBM font-[400]">
           <h1>I'm Stan Yan.</h1>
@@ -201,10 +200,9 @@ function Intro() {
           </div>
           {/* My Projects*/}
           <div
-            onClick={() =>
-              (window.location.href =
-                "https://www.linkedin.com/in/stan-yan-940075239/")
-            }
+            onClick={() => {
+              window.location.hash = "projects";
+            }}
             className="flex lg:w-[90%] h-[15vw] lg:h-[4vw]  items-center justify-between px-4 bg-[#004d00] rounded-lg text-[#f5f5f5] text-[5vw] lg:text-[1.5vw] hover:opacity-70 cursor-pointer"
           >
             <GrProjects className="text-[6vw] lg:text-[2vw]" />

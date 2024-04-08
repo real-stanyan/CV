@@ -166,7 +166,7 @@ function App() {
           id="model"
           className="w-[100vw] h-[60vh] lg:w-[60%] lg:h-[100vh]"
         />
-        <div className="w-full flex-1 lg:w-[20%] grid grid-cols-2 gap-3 lg:gap-4 lg:flex lg:flex-col font-IBM pb-14">
+        <div className="w-full flex-1 lg:w-[20%] grid grid-cols-2 gap-2 lg:gap-4 lg:flex lg:flex-col font-IBM p-2 pb-14">
           {/* My Github */}
           <div
             onClick={() =>

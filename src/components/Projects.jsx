@@ -9,7 +9,7 @@ console.log("🚀 ~ projects:", projects);
 
 export default function Projects() {
   useGSAP(() => {
-    gsap.to("#projects", { paddingTop: 0, duration: 2, delay: 3 });
+    gsap.to("#projects", { paddingTop: 0, duration: 2, delay: 1 });
   }, []);
 
   return (

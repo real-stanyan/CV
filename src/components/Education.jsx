@@ -8,7 +8,7 @@ import education from "../libs/education_data.json";
 
 export default function Education() {
   useGSAP(() => {
-    gsap.to("#education", { paddingTop: 0, duration: 2, delay: 3 });
+    gsap.to("#education", { paddingTop: 0, duration: 2, delay: 1 });
   }, []);
   return (
     <div

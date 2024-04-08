@@ -35,8 +35,8 @@ function useWindowSize() {
 function Intro() {
   const [width, height] = useWindowSize();
   useGSAP(() => {
-    gsap.to("#intro_slide", { top: "0", opacity: 1, duration: 2, delay: 3 });
-    gsap.to("#say_hi", { top: "-100vh", duration: 2, delay: 3 });
+    gsap.to("#intro_slide", { top: "0", opacity: 1, duration: 2, delay: 1 });
+    gsap.to("#say_hi", { top: "-100vh", duration: 2, delay: 1 });
   }, []);
 
   useEffect(() => {
@@ -117,7 +117,7 @@ function Intro() {
       requestAnimationFrame(animate);
       if (loadedModel) {
         // loadedModel.rotation.x += 0.01; // 每帧旋转一小部分
-        gsap.to(loadedModel.rotation, { x: 0, duration: 5, delay: 2 });
+        gsap.to(loadedModel.rotation, { x: 0, duration: 5, delay: 1 });
       }
       controls.update(); // 只有在使用阻尼时才需要这样做
       renderer.render(scene, camera);

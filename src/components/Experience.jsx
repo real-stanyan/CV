@@ -8,7 +8,7 @@ import experiences from "../libs/experience_data.json";
 
 export default function Experience() {
   useGSAP(() => {
-    gsap.to("#experience", { paddingTop: 0, duration: 2, delay: 3 });
+    gsap.to("#experience", { paddingTop: 0, duration: 2, delay: 13 });
   }, []);
 
   return (

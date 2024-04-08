@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "name": "Home Harbor",
+    "image": "/projects_cover/home_harbor.png",
+    "url": "https://homeharbor-pwa9.onrender.com",
+    "stacks": [
+      {
+        "category": "Frontend",
+        "technologies": [
+          {
+            "name": "React",
+            "icon": "/stack_icons/react.png"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "/stack_icons/tailwindcss.png"
+          },
+          {
+            "name": "Three.js",
+            "icon": "/stack_icons/three.js.png"
+          },
+          {
+            "name": "Redux",
+            "icon": "/stack_icons/redux.png"
+          }
+        ]
+      },
+      {
+        "category": "Backend",
+        "technologies": [
+          {
+            "name": "Express.js",
+            "icon": "/stack_icons/express.js.png"
+          }
+        ]
+      },
+      {
+        "category": "Database",
+        "technologies": [
+          {
+            "name": "MongoDB",
+            "icon": "/stack_icons/MongoDB.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Formatif",
+    "image": "/projects_cover/formatif.png",
+    "url": "https://formatif.cse.unsw.edu.au/#/sign_in",
+    "stacks": [
+      {
+        "category": "Frontend",
+        "technologies": [
+          {
+            "name": "Angularjs",
+            "icon": "/stack_icons/angularjs.png"
+          },
+          {
+            "name": "Tailwind CSS",
+            "icon": "/stack_icons/tailwindcss.png"
+          },
+          {
+            "name": "Coffee script",
+            "icon": "/stack_icons/coffee_script.svg"
+          },
+          {
+            "name": "Typescript",
+            "icon": "/stack_icons/typescript.png"
+          }
+        ]
+      },
+      {
+        "category": "Backend",
+        "technologies": [
+          {
+            "name": "Ruby",
+            "icon": "/stack_icons/ruby.png"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -35,7 +35,7 @@ function useWindowSize() {
 function Intro() {
   const [width, height] = useWindowSize();
   useGSAP(() => {
-    gsap.to("#intro_slide", { top: "0", duration: 2, delay: 3 });
+    gsap.to("#intro_slide", { top: "0", opacity: 1, duration: 2, delay: 3 });
     gsap.to("#say_hi", { top: "-100vh", duration: 2, delay: 3 });
   }, []);
 
@@ -145,7 +145,7 @@ function Intro() {
       {/* say hi */}
       <div
         id="say_hi"
-        className="absolute w-full h-full flex justify-center items-center top-0 left-0"
+        className="absolute w-full h-[100vh] flex justify-center items-center top-0 left-0"
       >
         <div className="text-[7vw] md:text-[5vw] lg:text-[3vw] text-[#f5f5f5] font-reem text-center">
           <h1>Nice to meet you~</h1>
@@ -155,7 +155,7 @@ function Intro() {
       {/* slide */}
       <div
         id="intro_slide"
-        className="w-full h-full flex flex-col items-center lg:flex-row absolute top-[100vh] left-0 pb-12 lg:p-8 z-10"
+        className="w-full h-full flex flex-col items-center lg:flex-row absolute top-[100vh] left-0 pb-12 lg:p-8 z-10 opacity-0"
       >
         <div className="w-full lg:w-[20%] h-[20vh] lg:h-[30vh] flex flex-col justify-center items-center lg:items-start text-[6vw] lg:text-[2vw] text-[#f5f5f5] whitespace-nowrap font-IBM font-[400]">
           <h1>I'm Stan Yan.</h1>
@@ -169,7 +169,7 @@ function Intro() {
           {/* My Github */}
           <div
             onClick={() =>
-              (window.location.href = "https://github.com/real-stanyan")
+              window.open("https://github.com/real-stanyan", "_blank")
             }
             className="flex  lg:w-[90%] h-[15vw] lg:h-[4vw]  items-center justify-between px-4 bg-[black] rounded-lg text-[#f5f5f5] text-[5vw] lg:text-[1.5vw] hover:opacity-70 cursor-pointer"
           >
@@ -179,8 +179,10 @@ function Intro() {
           {/* My Linkedin */}
           <div
             onClick={() =>
-              (window.location.href =
-                "https://www.linkedin.com/in/stan-yan-940075239/")
+              window.open(
+                "https://www.linkedin.com/in/stan-yan-940075239/",
+                "_blank"
+              )
             }
             className="flex  lg:w-[90%] h-[15vw] lg:h-[4vw]  items-center justify-between px-4 bg-[#0a65c2] rounded-lg text-[#f5f5f5] text-[5vw] lg:text-[1.5vw] hover:opacity-70 cursor-pointer"
           >
@@ -190,8 +192,10 @@ function Intro() {
           {/* My CV */}
           <div
             onClick={() =>
-              (window.location.href =
-                "https://www.linkedin.com/in/stan-yan-940075239/")
+              window.open(
+                "https://www.linkedin.com/in/stan-yan-940075239/",
+                "_blank"
+              )
             }
             className="flex lg:w-[90%] h-[15vw] lg:h-[4vw]  items-center justify-between px-4 bg-[#003366] rounded-lg text-[#f5f5f5] text-[5vw] lg:text-[1.5vw] hover:opacity-70 cursor-pointer"
           >

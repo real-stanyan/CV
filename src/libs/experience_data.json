@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "period": "Dec 2020 - Feb 2021",
+    "position": "UI & Front-End Developer, Sunwin Investment (Internship)",
+    "details": [
+      "Use figma to design UI interface.",
+      "Use vue.js to build a front-end page for company business display."
+    ]
+  },
+  {
+    "id": 2,
+    "period": "Aug 2021 — Jan 2022",
+    "position": "UI & Front-End Developer, Velocity English (part-time)",
+    "details": [
+      "Use figma to design UI interface.",
+      "Use react.js to build a front-end page for English mock exams.",
+      "Implement front-end and back-end communication."
+    ]
+  },
+  {
+    "id": 4,
+    "period": "Oct 2022 — Jul 2023",
+    "position": "Software Tester, ThunderSoft (full-time)",
+    "details": [
+      "Conduct pre-market software testing for GWM's Tank 300 and Tank 500 to ensure that the software can provide stable services to customers after the market is launched.",
+      "Communicate with engineers via JIRA to resolve discovered software issues."
+    ]
+  }
+]

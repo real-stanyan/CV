@@ -4,6 +4,8 @@ import { useEffect } from "react";
 // import Components
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
 
 export default function App() {
   useEffect(() => {
@@ -15,6 +17,8 @@ export default function App() {
     <div className="max-w-[100vw] bg-[#696762] innerShadow">
       <Intro />
       <Projects />
+      <Experience />
+      <Education />
     </div>
   );
 }

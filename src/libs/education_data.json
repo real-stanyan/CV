@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "period": "Jan 2019 — Nov 2021",
+    "image": "/images/uts.png",
+    "degree": "Bachelor of Information Technology, UTS"
+  },
+  {
+    "id": 2,
+    "period": "Aug 2022 — Nov 2023",
+    "image": "/images/unsw.png",
+    "degree": "Master of Computer Science, UNSW"
+  }
+]

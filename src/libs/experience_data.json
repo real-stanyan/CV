@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "period": "Dec 2020 - Feb 2021",
     "position": "UI & Front-End Developer, Sunwin Investment (Internship)",
     "details": [
@@ -9,7 +9,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 1,
     "period": "Aug 2021 — Jan 2022",
     "position": "UI & Front-End Developer, Velocity English (part-time)",
     "details": [
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 2,
     "period": "Oct 2022 — Jul 2023",
     "position": "Software Tester, ThunderSoft (full-time)",
     "details": [

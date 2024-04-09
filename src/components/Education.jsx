@@ -1,22 +1,13 @@
 import React from "react";
-
-// import GSAP
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-
 import education from "../libs/education_data.json";
-import experiences from "../libs/experience_data.json";
 
 export default function Education() {
   const l = "{";
   const r = "}";
-  useGSAP(() => {
-    gsap.to("#education", { paddingTop: 0, duration: 2, delay: 1 });
-  }, []);
   return (
     <div
       id="education"
-      className="font-reem text-[#f5f5f7] p-2 lg:p-8 z-50 pt-[100vh] mt-[30px] lg:mt-[70px] pb-14"
+      className="font-reem text-[#f5f5f7] p-2 lg:p-8 z-50 mt-[30px] lg:mt-[70px] pb-14"
     >
       <h1 className="text-center font-[600] text-[6vw] md:text-[4vw] lg:text-[3vw]">
         Education
@@ -25,7 +16,7 @@ export default function Education() {
       <div className="w-[90%] md:w-[80%] lg:w-[70%] text-[2vw] md:text-[1.5vw] lg:text-[1vw] flex flex-col bg-[#282c34] px-2 py-1 lg:px-8 lg:py-4 rounded-lg mx-auto">
         {/* 1 */}
         <code className="text-[#c678dd]">
-          const <span className="text-[#61afef]">fetchExperienceData</span> =
+          const <span className="text-[#61afef]">fetchEducationData</span> =
           async () =&gt; {l}
         </code>
         {/* 2 */}
@@ -59,7 +50,7 @@ export default function Education() {
         </code>
         {/* 5 */}
         <code className="text-[#e3e3e3] pl-[2vw] flex justify-between">
-          <span>🚀 Array({experiences.length})</span>
+          <span>🚀 Array({education.length})</span>
           <span className="underline text-[#a8c7fa]">App.js:4</span>
         </code>
         {education.map((item) => (

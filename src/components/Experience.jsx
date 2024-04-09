@@ -1,30 +1,15 @@
 import React from "react";
 
-// import GSAP
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-
 import experiences from "../libs/experience_data.json";
-console.log("🚀 ~ experiences:", experiences);
-import { code, div } from "three/examples/jsm/nodes/Nodes.js";
 
 export default function Experience() {
   const l = "{";
   const r = "}";
-  useGSAP(() => {
-    gsap.to("#experience", { paddingTop: 0, duration: 2, delay: 13 });
-  }, []);
-
-  const fetchExperienceData = async () => {
-    const res = await fetch(`sda`);
-    const data = await res.json();
-    console.log();
-  };
 
   return (
     <div
       id="experience"
-      className="font-reem text-[#f5f5f7] text-[2vw] md:text-[1.5vw] lg:text-[1vw] p-2 lg:p-8 z-50 pt-[100vh] mt-[30px] lg:mt-[70px]"
+      className="font-reem text-[#f5f5f7] text-[2vw] md:text-[1.5vw] lg:text-[1vw] p-2 lg:p-8 z-50 mt-[30px] lg:mt-[70px]"
     >
       <h1 className="text-center font-[600] text-[6vw] md:text-[4vw] lg:text-[3vw]">
         My Experience

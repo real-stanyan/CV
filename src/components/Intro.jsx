@@ -39,27 +39,27 @@ function Intro() {
     gsap.to("#say_hi", { top: "-100vh", duration: 2, delay: 1 });
   }, []);
 
-  useEffect(() => {
-    // 禁止滚动的函数
-    const preventScroll = (e) => {
-      e.preventDefault();
-    };
+  // useEffect(() => {
+  //   // 禁止滚动的函数
+  //   const preventScroll = (e) => {
+  //     e.preventDefault();
+  //   };
 
-    // 页面加载时添加禁止滚动
-    window.addEventListener("load", () => {
-      document.body.classList.add("no-scroll");
-      // 在移动设备上禁止滚动
-      window.addEventListener("touchmove", preventScroll, { passive: false });
+  //   // 页面加载时添加禁止滚动
+  //   window.addEventListener("load", () => {
+  //     document.body.classList.add("no-scroll");
+  //     // 在移动设备上禁止滚动
+  //     window.addEventListener("touchmove", preventScroll, { passive: false });
 
-      setTimeout(() => {
-        document.body.classList.remove("no-scroll");
-        // 移除禁止滚动
-        window.removeEventListener("touchmove", preventScroll, {
-          passive: false,
-        });
-      }, 6000);
-    });
-  }, []);
+  //     setTimeout(() => {
+  //       document.body.classList.remove("no-scroll");
+  //       // 移除禁止滚动
+  //       window.removeEventListener("touchmove", preventScroll, {
+  //         passive: false,
+  //       });
+  //     }, 6000);
+  //   });
+  // }, []);
   useEffect(() => {
     let loadedModel = null;
     const canvas = document.getElementById("model");

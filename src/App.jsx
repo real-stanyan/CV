@@ -7,6 +7,8 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 
+import { SpeedInsights } from "@vercel/speed-insights/react";
+
 export default function App() {
   useEffect(() => {
     // 页面加载时滚动到顶部

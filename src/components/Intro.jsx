@@ -39,27 +39,6 @@ function Intro() {
     gsap.to("#say_hi", { top: "-100vh", duration: 2, delay: 1 });
   }, []);
 
-  // useEffect(() => {
-  //   // 禁止滚动的函数
-  //   const preventScroll = (e) => {
-  //     e.preventDefault();
-  //   };
-
-  //   // 页面加载时添加禁止滚动
-  //   window.addEventListener("load", () => {
-  //     document.body.classList.add("no-scroll");
-  //     // 在移动设备上禁止滚动
-  //     window.addEventListener("touchmove", preventScroll, { passive: false });
-
-  //     setTimeout(() => {
-  //       document.body.classList.remove("no-scroll");
-  //       // 移除禁止滚动
-  //       window.removeEventListener("touchmove", preventScroll, {
-  //         passive: false,
-  //       });
-  //     }, 6000);
-  //   });
-  // }, []);
   useEffect(() => {
     let loadedModel = null;
     const canvas = document.getElementById("model");
@@ -140,6 +119,20 @@ function Intro() {
     };
   }, []);
 
+  function downloadFile() {
+    const url = "/WenyaoYan_CV.pdf"; // 假设这是文件的可访问URL
+
+    // 创建一个a标签，设置href为文件的URL，设置下载文件名
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "WenyaoYan_CV.pdf"; // 指定下载后的文件名
+
+    // 触发a标签的点击事件，开始下载
+    link.click();
+
+    // 这里不需要创建Blob也不需要清理URL
+  }
+
   return (
     <div id="intro" className="relative max-w-[100vw] min-h-[100vh]">
       {/* say hi */}
@@ -193,12 +186,7 @@ function Intro() {
           </div>
           {/* My CV */}
           <div
-            onClick={() =>
-              window.open(
-                "https://www.linkedin.com/in/stan-yan-940075239/",
-                "_blank"
-              )
-            }
+            onClick={downloadFile}
             className="flex lg:w-[90%] h-[15vw] lg:h-[4vw]  items-center justify-between px-4 bg-[#003366] rounded-lg text-[#f5f5f5] text-[5vw] lg:text-[1.5vw] hover:opacity-70 cursor-pointer"
           >
             <FaRegAddressCard className="text-[6vw] lg:text-[2vw]" />

@@ -21,6 +21,7 @@ export default function App() {
       <Projects />
       <Experience />
       <Education />
+      <SpeedInsights />
     </div>
   );
 }

@@ -120,7 +120,7 @@ function Intro() {
   }, []);
 
   function downloadFile() {
-    const url = "/Wenyao_Yan_-_ .pdf"; // 假设这是文件的可访问URL
+    const url = "/Wenyao_Yan.pdf"; // 假设这是文件的可访问URL
 
     // 创建一个a标签，设置href为文件的URL，设置下载文件名
     const link = document.createElement("a");

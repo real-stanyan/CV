@@ -1,16 +1,16 @@
 [
   {
     "id": 0,
-    "uni": "University of Technology Sydney",
-    "period": "Jan 2019 — Nov 2021",
-    "image": "/images/uts.png",
-    "degree": "Bachelor of Information Technology, UTS"
-  },
-  {
-    "id": 1,
     "uni": "University of New South Wales",
     "period": "Aug 2022 — Nov 2023",
     "image": "/images/unsw.png",
     "degree": "Master of Computer Science, UNSW"
+  },
+  {
+    "id": 1,
+    "uni": "University of Technology Sydney",
+    "period": "Jan 2019 — Nov 2021",
+    "image": "/images/uts.png",
+    "degree": "Bachelor of Information Technology, UTS"
   }
 ]

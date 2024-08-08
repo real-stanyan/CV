@@ -1,15 +1,28 @@
 [
   {
     "id": 0,
-    "period": "Dec 2020 - Feb 2021",
-    "position": "UI & Front-End Developer, Sunwin Investment (Internship)",
+    "period": "May 2022 — Present",
+    "position": "Front-End Developer & Business Analyst, Herz Pharmaceutical Technology Pty Ltd (part-time)",
     "details": [
-      "Use figma to design UI interface.",
-      "Use vue.js to build a front-end page for company business display."
+      "Built and managed Shopify e-commerce sites.",
+      "Customized themes and integrated apps.",
+      "Designed web mockups and prototypes in Figma.",
+      "Created UX/UI designs and collaborated with teams.",
+      "Optimize web page SEO for maximum visibility.",
+      "Conducted competitor analysis and explored new markets using web crawling techniques to drive strategic business decisions."
     ]
   },
   {
     "id": 1,
+    "period": "Oct 2022 — Jul 2023",
+    "position": "Software Tester, ThunderSoft (full-time)",
+    "details": [
+      "Conduct pre-market software testing for GWM's Tank 300 and Tank 500 to ensure that the software can provide stable services to customers after the market is launched.",
+      "Communicate with engineers via JIRA to resolve discovered software issues."
+    ]
+  },
+  {
+    "id": 2,
     "period": "Aug 2021 — Jan 2022",
     "position": "UI & Front-End Developer, Velocity English (part-time)",
     "details": [
@@ -19,12 +32,12 @@
     ]
   },
   {
-    "id": 2,
-    "period": "Oct 2022 — Jul 2023",
-    "position": "Software Tester, ThunderSoft (full-time)",
+    "id": 3,
+    "period": "Dec 2020 - Feb 2021",
+    "position": "UI & Front-End Developer, Sunwin Investment (Internship)",
     "details": [
-      "Conduct pre-market software testing for GWM's Tank 300 and Tank 500 to ensure that the software can provide stable services to customers after the market is launched.",
-      "Communicate with engineers via JIRA to resolve discovered software issues."
+      "Use figma to design UI interface.",
+      "Use vue.js to build a front-end page for company business display."
     ]
   }
 ]

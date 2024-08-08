@@ -1,6 +1,23 @@
 [
   {
     "id": 1,
+    "name": "Lurky",
+    "image": "/projects_cover/lurky.png",
+    "url": "https://lurky.com.au/",
+    "stacks": [
+      {
+        "category": "Platform",
+        "technologies": [
+          {
+            "name": "Shopify",
+            "icon": "/stack_icons/shopify.png"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
     "name": "Home Harbor",
     "image": "/projects_cover/home_harbor.png",
     "url": "https://homeharbor-pwa9.onrender.com",

@@ -6,11 +6,20 @@
     "url": "https://lurky.com.au/",
     "stacks": [
       {
-        "category": "Platform",
+        "category": "Frontend",
         "technologies": [
           {
-            "name": "Shopify",
-            "icon": "/stack_icons/shopify.png"
+            "name": "Hydrogen",
+            "icon": "/stack_icons/hydrogen.webp"
+          }
+        ]
+      },
+      {
+        "category": "Backend",
+        "technologies": [
+          {
+            "name": "GraphQL",
+            "icon": "/stack_icons/graphql.png"
           }
         ]
       }

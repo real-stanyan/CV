@@ -1,6 +1,23 @@
 [
   {
     "id": 1,
+    "name": "Herz Pharmaceuticals",
+    "image": "/projects_cover/herzpharmaceuticals.webp",
+    "url": "https://lurky.com.au/",
+    "stacks": [
+      {
+        "category": "Frontend",
+        "technologies": [
+          {
+            "name": "Nextjs",
+            "icon": "/stack_icons/nextjs.webp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
     "name": "Lurky",
     "image": "/projects_cover/lurky.png",
     "url": "https://lurky.com.au/",
@@ -26,7 +43,7 @@
     ]
   },
   {
-    "id": 1,
+    "id": 3,
     "name": "Home Harbor",
     "image": "/projects_cover/home_harbor.png",
     "url": "https://homeharbor-pwa9.onrender.com",
@@ -73,7 +90,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Formatif",
     "image": "/projects_cover/formatif.png",
     "url": "https://formatif.cse.unsw.edu.au/#/sign_in",
